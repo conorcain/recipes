@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+/* Page background styling */
+.pageBackground {
+  background-color: #f5d28f;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Recipe container styling */
+.container {
+  background: radial-gradient(circle, #b22222 0%, #D32929 100%);
+  color: rgb(232, 232, 232); /* White font for contrast */
+  padding: 30px;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Main title styling with yellow glow and lighter sky blue */
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: rgba(255, 255, 0, 0.8); /* Much lighter sky blue */
+  margin-bottom: 25px;
+  text-shadow: 0px 0px 5px rgba(242, 242, 191, 0.8); /* Yellow glow effect */
+}
+
+.note {
+    margin-bottom: 25px;
+}
+
+/* Bold text for subtitles, now with light sky blue */
+.boldText {
+  font-weight: bold;
+  color: rgba(252, 252, 93, 0.8); /* Light sky blue for step subtitles */
+}
+
+/* Ordered list styling */
+.orderedList {
+  margin-left: 20px;
+  padding: 0;
+}
+
+/* List item styling */
+.listItem {
+  margin-bottom: 15px;
+}
+
+/* Unordered list styling */
+.unorderedList {
+  margin-left: 20px;
+  list-style-type: disc;
+  padding: 0;
+}
+
+/* Subpoint indentation */
+.subListItem {
+  margin-left: 20px;
+}
+
+/* Paragraph styling inside list items */
+.paragraph {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
